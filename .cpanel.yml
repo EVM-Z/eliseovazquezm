@@ -1,5 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/eliseova/public_html/
-    - /bin/rsync -av ../ $DEPLOYPATH
+    - export DEPLOYPATH=/home4/eliseova/public_html/
+    - export REPOSITORIES=/home4/eliseova/repositores/
+    - /bin/cp $REPOSITORIES $DEPLOYPATH
