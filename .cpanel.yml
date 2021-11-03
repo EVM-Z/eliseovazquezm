@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home4/eliseova/public_html/
-    - export REPOSITORIES=/home4/eliseova/repositories/eliseovazquezm
+    - export REPOSITORIES=/home4/eliseova/repositories/eliseovazquezm/
     - /bin/cp -R $REPOSITORIES $DEPLOYPATH
